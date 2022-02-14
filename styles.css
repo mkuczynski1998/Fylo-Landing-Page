@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* General Styles */
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 100%;
+}
+
+body {
+   font-family: "Open sans", sans-serif;
+   color: black;
+   margin: 0;
+}
+
+/* Header Styles */
+
+.header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 5rem;
+}
+
+.header {
+   font-family: Raleway;
+}
+
+h1,
+h2,
+h3 {
+   font-family: Raleway;
+}
+
+.header img {
+   margin: 2rem;
+   max-width: 80px;
+}
+
+.nav-header {
+   margin: 1rem;
+}
+
+.nav-header a {
+   text-decoration: none;
+   color: black;
+   padding: 0.5rem;
+   font-size: 0.8rem;
+}
+
+/* Main Content Styles */
+
+.first-illustration img {
+   display: block;
+   width: 80vw;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2.5rem;
+}
+
+.bold-center {
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 1.5rem;
+   line-height: 1.4;
+   text-align: center;
+   width: 85vw;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.files {
+   text-align: center;
+   font-size: 0.9rem;
+   line-height: 1.4;
+   width: 80vw;
+   margin: 0 auto;
+   margin-bottom: 2rem;
+}
+
+input#email {
+   display: block;
+   width: 80vw;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+   padding: 0.5rem;
+}
+
+.get-started {
+   display: block;
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom: 5rem;
+   padding: 0.6rem;
+   background-color: hsl(224, 93%, 58%);
+   color: white;
+   border-radius: 0.2rem;
+   text-decoration: none;
+   text-align: center;
+   font-size: 0.8rem;
+   font-weight: 700;
+}
+
+.get-started:hover {
+   background-color: hsl(224, 90%, 72%);
+}
+
+#second-part-main {
+   background-color: hsl(240, 75%, 98%);
+}
+
+img.curve {
+   display: block;
+   width: 100vw;
+}
+
+.illustration-img2 img {
+   display: block;
+   width: 80vw;
+   margin: 0 auto 6rem auto;
+}
+
+.content-illustration2 h2 {
+   margin: 0 auto;
+   width: 70%;
+   text-align: center;
+   font-weight: 700;
+   font-size: 1rem;
+   padding-bottom: 0.5rem;
+}
+
+.content-illustration2 p {
+   width: 85vw;
+   line-height: 1.5;
+   margin-top: 1.5rem;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 0.9rem;
+}
+
+.content-illustration2 p:nth-child(1) {
+   padding-bottom: 5rem;
+}
+
+.arrow-link {
+   margin: 3rem auto;
+   padding: 0;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 2rem;
+   width: 42vw;
+}
+
+.arrow-link a {
+   text-align: center;
+   margin-right: 0.2rem;
+   font-size: 0.9rem;
+   text-decoration: none;
+   color: hsl(170, 45%, 43%);
+   padding-bottom: 0.3rem;
+   border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.arrow-link:hover {
+   border-color: hsl(170, 46%, 61%);
+}
+
+.arrow-link a:hover,
+.arrow-link img:hover {
+   color: hsl(170, 46%, 61%);
+}
+
+.arrow-link img {
+   padding-bottom: 0.1rem;
+}
+
+.comment {
+   background-color: white;
+   margin: 0 3rem 4rem 3rem;
+   border-radius: 0.4rem;
+   box-shadow: 0 0 10px hsl(0, 0%, 89%);
+}
+
+.comment p:nth-child(1) {
+   max-width: 80%;
+   margin: 0 auto;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   line-height: 2;
+   font-size: 0.6rem;
+   text-align: left;
+   font-weight: 500;
+}
+
+.comment p,
+h3 {
+   margin: 0;
+}
+
+.avatar-desc {
+   display: flex;
+   align-items: center;
+   padding-left: 1.6rem;
+   padding-bottom: 1.5rem;
+}
+
+.desc {
+   margin-left: 0.5rem;
+}
+
+.desc h3 {
+   font-size: 0.65rem;
+   margin-bottom: 0.1rem;
+}
+
+.desc p {
+   font-size: 0.5rem;
+}
+
+img#avatar {
+   height: 2rem;
+   border-radius: 1rem;
+}
+
+.early-access {
+   background-color: hsl(238, 22%, 44%);
+   color: white;
+   text-align: center;
+}
+
+.info h2 {
+   margin: 0 auto;
+   width: 70%;
+   font-size: 1.3rem;
+   padding-top: 5rem;
+   padding-bottom: 0.5rem;
+}
+
+.info p {
+   line-height: 1.6;
+   font-size: 0.95rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-bottom: 0.5rem;
+}
+
+input#email-access {
+   width: 60vw;
+   margin-bottom: 0.3rem;
+   padding-left: 0.5rem;
+   padding-top: 0.4rem;
+   padding-bottom: 0.4rem;
+}
+
+input::placeholder {
+   opacity: 0.2;
+   font-size: 0.7rem;
+}
+
+.for-free {
+   display: block;
+   text-decoration: none;
+   width: 60vw;
+   margin: 0 auto;
+   margin-bottom: 4rem;
+   background-color: hsl(224, 93%, 58%);
+   color: white;
+   border: none;
+   padding: 0.6rem;
+   font-size: 0.8rem;
+   font-weight: 400;
+   border-radius: 0.2rem;
+   box-shadow: 1px 1px 5px hsl(0, 0%, 25%);
+}
+
+.for-free:hover {
+   background-color: hsl(224, 90%, 72%);
+}
+
+/* Footer Styles */
+
+footer {
+   background-color: hsl(243, 87%, 12%);
+   color: white;
+}
+
+.logo-footer {
+   filter: brightness(0) invert(1);
+   padding-top: 4rem;
+   padding-bottom: 1.5rem;
+   padding-left: 2.5rem;
+}
+
+.contact-details {
+   padding-left: 2.5rem;
+}
+
+.contact-details {
+   margin-bottom: 3rem;
+}
+
+.contact-details img {
+   margin-right: 1.2rem;
+}
+
+footer ul li {
+   list-style-type: none;
+   padding-bottom: 0.8rem;
+}
+
+footer li a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.nav-footer1 ul {
+   padding-bottom: 1rem;
+}
+
+.icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   margin: 2.5rem auto;
+}
+
+.icons img {
+   filter: brightness(0) invert(1);
+   height: 1.8rem;
+   width: 1.8rem;
+   border: 2px solid white;
+   border-radius: 2rem;
+   padding: 5px;
+}
+
+.attribution {
+   margin: 0 auto;
+   text-align: center;
+   padding-bottom: 2rem;
+   font-size: 1rem;
+}
+
+.attribution a {
+   color: white;
+   font-weight: 700;
+}
